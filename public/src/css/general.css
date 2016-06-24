@@ -1,0 +1,149 @@
+/*General*/
+#mid-section {
+	padding:	1rem 0;
+}
+
+.news-item, .arrangement-item {
+	box-shadow:	0 .1em .4em #aaa;
+}
+
+.news-item, .arrangement-item:not(:last-child) {
+	margin-bottom: 1.6rem;
+}
+
+.news-button-container, .arrangement-button-container {
+	text-align: right;
+}
+
+.news-button, .arrangement-button {
+	display:	inline-block;
+	padding:	.6em .2em;
+}
+
+.table-row-heading {
+	font-weight:	normal;
+}
+th {
+	text-align:left;
+}
+
+table {
+	width: 100%;
+}
+
+.heading-1 {
+	font-size:	1.4rem;
+}
+
+.heading-2 {
+	font-size:	1rem;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+body {
+	font-size: .8rem;
+	line-height: 1.6em;
+	/*background-color:	#f8f8f8;*/
+	background-color:	#e8e8e8;
+	font-family:	'Bitter', 'serif';
+}
+
+.generic-content > p:not(:last-child),
+.generic-content > h1:not(:last-child),
+.generic-content > h2:not(:last-child),
+.generic-content > img:not(:last-child),
+.news-list > li {
+	margin-bottom:	1rem;
+}
+
+.generic-link {
+	color: #87ceeb;
+	text-decoration:	underline;
+}
+
+.content-wrapper {
+	margin:	0 auto;
+	max-width: 50rem;
+}
+
+.highlight-section {
+	background-color:	#fff;
+}
+
+.highlight-section,
+#footer {
+	padding: .8rem;
+}
+
+.accent {
+	background-color: #87ceeb;
+	color:	#fff;
+}
+
+.accent-secondary {
+	background-color: #ffa939;
+	color:	#fff;
+}
+
+
+#login-bar {
+	display:		flex;
+	flex-direction:	row-reverse;
+	align-items:	center;
+}
+#profile-image {
+	height:	2.2rem;
+}
+.login-item {
+	margin-left: .6em;
+}
+
+#heading {
+	font-family:	'Peddana', 'serif';
+	font-size:	5rem;
+	font-weight: lighter;
+	text-align: center;
+	color:	#FFF;
+}
+
+#heading-background {
+	display: flex;
+	justify-content: center;
+	align-items:	center;
+	background-size:	100%, auto;
+	background-repeat:	no-repeat;
+}
+
+#heading-background, .google-map {
+	height: 16rem;
+}
+
+#banner-nav > ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#active-link {
+	text-decoration:	underline;
+	text-decoration-color: #87ceeb;
+}
+
+
+#footer {
+	background-color:	#333;
+}
+#footer-contact {
+	text-align:	center;
+}
+.footer-contact-item {
+	color:	#fff;
+	display:	inline-block;
+	margin:		0 2em;
+}
+address {
+	font-style:	normal;
+}

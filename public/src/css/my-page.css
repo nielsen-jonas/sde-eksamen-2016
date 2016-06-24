@@ -1,0 +1,34 @@
+/*My Page*/
+#my-page-wrapper, #contact-wrapper {
+	margin:	0 auto;
+	max-width:	38rem;
+}
+#my-page-profile-image {
+	max-width:	5rem;
+}
+#my-page-list {
+
+}
+
+dt.my-page {
+	white-space: nowrap;
+	width: 0;
+	padding:0;
+	margin: 0;
+	float: left;
+	clear: left;
+	font-weight: bold;
+}
+dd.my-page {
+	white-space: nowrap;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	left: 12em;
+}
+dd.my-page:not(:last-of-type){
+	padding-bottom: .8em;
+}
+dd.my-page.seperator{
+	padding-bottom: 3em;
+}
