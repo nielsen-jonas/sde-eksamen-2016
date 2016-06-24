@@ -27,7 +27,7 @@
  * * scr_is() (returns true if passed script is the requested script)
  * * scr_url() (returns url of passed script as mapped in route.php)
  */
-
+ 
 // Common directory constants
 require_once('usr/directory.php');
 

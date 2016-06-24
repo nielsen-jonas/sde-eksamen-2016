@@ -3,6 +3,7 @@
 //Abstract away website location for portability
 $directory = rtrim($_SERVER['PHP_SELF'], '/index.php');
 $request = $_SERVER['REQUEST_URI'];
+$request = preg_replace('/^' . preg_quote($directory, '/') . '/', '', $request);
 $protocol = explode('/', $_SERVER['SERVER_PROTOCOL']);
 $protocol = strtolower($protocol[0]);
 define('WEBSITE_DIRECTORY', $directory);
